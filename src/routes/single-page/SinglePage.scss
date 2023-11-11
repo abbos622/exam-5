@@ -1,0 +1,43 @@
+.single-page {
+    width: 100%;
+    height: 100vh;
+    background: var(--p-bg-color);
+}
+
+.single-page__wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.single__about {
+    max-width: 547px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+    border-right: 2px solid #808080;
+    h2 {
+        margin-top: 25px;
+        font-weight: 700;
+        font-size: 48px;
+        color: var(--p-text-color-light);
+    }
+    div {
+        margin-top: 15px;
+        color: var(--p-text-color-light);
+        line-height: 20px;
+    }
+    h3 {
+        width: 100%;
+        text-align: left;
+        font-size: 24px;
+        color: var(--p-text-color-light);
+        margin-top: 15px;
+        font-weight: 700;
+        span {
+            font-weight: 400;
+        }
+    }
+}

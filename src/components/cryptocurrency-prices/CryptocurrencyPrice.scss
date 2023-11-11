@@ -1,0 +1,178 @@
+.cryptocurrency-price {
+    text-align: center;
+    background: var(--p-bg-color);
+}
+
+.price__title {
+    width: 100%;
+    text-align: center;
+    padding-top: 24px;
+    font-family: var(--montserrat);
+    font-size: 34px;
+    color: var(--p-text-color-light);
+    font-weight: 400;
+}
+
+.priec__search {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    background: none;
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px 14px;
+    outline: none;
+    font-size: 20px;
+    color: var(--p-text-color-light);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 4px;
+    background: #16171a;
+    overflow: hidden;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.20);
+}
+
+th {
+    &:first-child {
+        text-align: left;
+    }
+    background-color: var(--p-text-color-info);
+    padding: 19px;
+    text-align: right;
+}
+
+td {
+    &:first-child {
+        padding: 0 16px;
+    }
+    &:not(:first-child) {
+        text-align: right;
+    }
+    >div {
+        img {
+            width: 50px;
+            aspect-ratio: 1/1;
+        }
+        display: flex;
+        gap: 0 15px;
+        align-items: flex-start;
+        // padding: 19px;
+        text-align: left;
+    }
+    border-bottom: 1px solid #515151;
+    padding: 19px !important;
+}
+
+.table__symbol {
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--p-text-color-light);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.table__name {
+    font-weight: 400;
+    color: var(--p-text-color-light);
+    line-height: 20px;
+    letter-spacing: 0.15px;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+}
+
+.current__price * {
+    font-weight: 400;
+    color: var(--p-text-color-light);
+    line-height: 20px;
+    letter-spacing: 0.15px;
+}
+
+.eye {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+    .eye-icon {
+        width: 55%;
+        color: #fff;
+        font-size: 30px;
+    }
+    .green {
+        color: green;
+    }
+}
+
+.item {
+    align-items: center;
+    color: #FFF;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+    color: #87CEEB;
+}
+
+.disabled-page {
+    color: #87CEEB;
+}
+
+.active {
+    width: 32px;
+    height: 32px;
+    color: #87CEEB;
+    border-radius: 40px;
+    background: #ffffff29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next {
+    height: auto;
+    width: auto;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.pagination {
+    font-size: 20px;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.pagination-page {
+    font-weight: 700;
+}
+
+.previous {
+    font-size: 40px;
+    height: auto;
+    left: 0;
+    position: absolute;
+    width: auto;
+    border: none !important;
+    cursor: pointer;
+}
+
+// table
+.table__link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
